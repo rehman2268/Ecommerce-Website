@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: orange;
+  color: white;
+}
+.progressbar {
+  background-color: red;
+  height: 3px;
+  animation-name: load;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  padding: 0px 20px;
+  height: 38px;
+  border-image: 4px solid black;
+}
+nav ul {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  /* font-size: 20px; */
+  padding: 7px;
+}
+nav ul li a:hover {
+  background-color:rgb(255, 132, 17);
+  border-radius: 6px;
+  /* color: rgb(172, 172, 172); */
+  /* font-weight: bolder; */
+  /* padding: 7px; */
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  margin: 0px 20px 0px 5px;
+  padding: 0px 7px;
+  width: 500px;
+  height: 26px;
+  border-radius: 4px;
+  border: 1px black;
+}
+.search a {
+  transform: translate(-55px);
+  border: none;
+  margin-top:1px;
+  border-left: 1px solid grey;
+  padding:3px 9px 0px 7px;
+  height: 23px;
+  /* width: 53px; */
+  /* background-color:rgba(240, 248, 255, 0); */
+}
+.search a:hover{
+  background-color:rgba(162, 162, 162, 0.676);
+  border-radius: 4px;
+  border-left:1px soli black;
+}
+.container {
+  padding: 5px 3px;
+  min-height: calc(100vh - 40px - 3px - 5vh);
+  background-image: url("https://source.unsplash.com/720x720/?nature,water");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  background-color: orange;
+  color: antiquewhite;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

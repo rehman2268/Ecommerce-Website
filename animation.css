@@ -1,0 +1,11 @@
+@keyframes load {
+    0%{
+        width: 0vw;
+    }
+    90%{
+        width: 100vw;
+    }
+    100%{
+        width: 0vw;
+    }
+}
